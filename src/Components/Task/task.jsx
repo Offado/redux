@@ -1,13 +1,19 @@
 import React from "react";
 import task from "../Task/task.css";
+import { useDispatch } from "react-redux";
 
 
-const Task = () => {
-    return(
-        <div className="container-task">
+const Task = ({todo}) => {
+    // Permet d'accéder au magasin Redux
+  const dispatch = useDispatch();
 
-        </div>
-    );
+  return (
+    <div className="container-listTask">
+      <ul>
+        <li>{todo.description}</li>
+      </ul>
+    </div>
+  );
 }
 
 export default Task;

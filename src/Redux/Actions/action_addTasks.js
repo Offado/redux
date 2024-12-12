@@ -1,8 +1,8 @@
 export const ADD_Task = 'ADD_Task';
 
-export const addTask = newTask => {
+export const ADDTask = (newTask) => {
     return {
         type: ADD_Task,
-        payload: newTask
+        payload: newTask,
     }
 }
