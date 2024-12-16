@@ -1,0 +1,25 @@
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+input {
+  width: 400px;
+  padding: 10px 15px;
+  border: 1px solid #333;
+  font-size: 1rem;
+}
+
+.btn-addTask {
+  background: green;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.btn-addTask:hover {
+  background: rgb(60, 231, 60);
+  padding: 10px 15px;
+  cursor: pointer;
+}

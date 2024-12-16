@@ -5,7 +5,7 @@ import { useSelector } from "react-redux";
 
 
 const ListTask = () => {
-  const task = useSelector((state) => state.task);
+  const task = useSelector((state) => state.taskList.tasks);
   return (
     <div className="container-listTask">
       {
